@@ -1,0 +1,41 @@
+header {
+  position: fixed;
+  top:0;
+  text-align: center;
+  width:100%;
+  z-index: 20;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  .left-menu {
+    //float:left;
+    a{
+      color:#777776;
+    }
+  }
+  .right-menu {
+    //float: right;
+    a{
+      color:#777776;
+    }
+  }
+  .menu-header {
+    position: relative;
+    z-index: 22!important;
+    text-align: center;
+    display: inline-block;
+    ul{
+      li{
+        display: inline-block;
+        a{
+          display: inline-block;
+          padding:0 20px;
+          color:#777776;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}

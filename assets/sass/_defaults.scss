@@ -6,6 +6,7 @@ html, body {
 
 body{
   background-image: url('../images/bg.png');
+  //min-width: 1250px;
 }
 
 input, button {
@@ -18,8 +19,23 @@ input, button {
   box-sizing: border-box;
 }
 
-.wrapper-1136{
-  margin: auto;
-  max-width: 1136px;
-  box-sizing: border-box;
+h2 {
+  font-size: 48px;
+  text-transform: uppercase;
+  position: relative; }
+img {
+  max-width: 100%;
 }
+a:hover {
+  img {
+    transition: 0.5s;
+    transform: translateX(10%);
+  }
+}
+.circles {
+  a:hover {
+    img {
+      transition: 0.5s;
+      transform: scale(1.2);
+    }
+}}

@@ -1,0 +1,15 @@
+footer {
+  background: url("../../../assets/images/footer.png");
+  background-size: cover;
+  .wrapper-1200 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #464646;
+    min-height: 70px;
+    a {
+      color: #7d7d7d;
+    }
+  }
+
+}

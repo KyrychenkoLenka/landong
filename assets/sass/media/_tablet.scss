@@ -1,0 +1,30 @@
+@media screen and (max-width:900px) {
+
+  .first-slide {
+     .main-content {
+        .learnMore {
+           h1{
+              font-size: 60px;
+           }
+           a{
+              display: inline-block;
+              color: white;
+              padding: 15px 70px;
+              border: 2px solid white ;
+              text-transform: uppercase;
+              margin: 60px 0px;
+           }
+        }
+     }
+  }
+  .second-slide {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+
+
+  img {
+    max-width: 100%!important;
+  }
+}
